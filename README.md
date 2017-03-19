@@ -13,8 +13,7 @@ To use this buildpack, you should prepare .buildpacks file that contains this bu
     ...
     
     $ cat .buildpacks
-    https://github.com/shunjikonishi/heroku-buildpack-ffmpeg
-    https://github.com/heroku/heroku-buildpack-play
+    https://github.com/helionmusic/heroku-buildpack-ffmpeg
 
     $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
 
@@ -29,4 +28,4 @@ Hacking
 -------
 If you want to use your own ffmpeg binary, fork and rewrite following line.
 
-https://github.com/shunjikonishi/heroku-buildpack-ffmpeg/blob/master/bin/compile#L10
+https://github.com/helionmusic/heroku-buildpack-ffmpeg/blob/master/bin/compile#L10
